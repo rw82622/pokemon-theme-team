@@ -1,0 +1,23 @@
+body {
+  font-family: "Helvetica Neue", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  background-color: #d3d7d8;
+}
+
+.myContainer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10%;
+}
+
+footer {
+  font-size: large;
+}
+
+img {
+  height: 200px;
+  width: 200px;
+}
