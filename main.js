@@ -2,14 +2,9 @@ function getRandomNum(num) {
   return Math.floor(Math.random() * num);
 }
 
-// let mainPoke = document.querySelector("#mainPoke");
-// let similarPokes = document.querySelector("#similarPokes");
-// let pic = document.createElement("img");
-// let typeNum = 1;
-
 const displayPokemons = async () => {
   try {
-    let num = Math.floor(Math.random() * 897) + 1;
+    let num = getRandomNum(897) + 1;
     const response = await axios.get(
       `https://pokeapi.co/api/v2/pokemon/${num}`
     );
